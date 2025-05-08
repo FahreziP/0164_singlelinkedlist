@@ -135,7 +135,9 @@ int main(){
                          << "Data dengan nomor Mahasiswa " << nim << " Berhasil dihapus" << endl;
             }
             break;
-
+            case '3':{
+                mhs.traverse();
+            }
         }
     }
 }
