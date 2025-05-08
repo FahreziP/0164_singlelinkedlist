@@ -166,6 +166,7 @@ int main(){
             default:{
                 cout << "Pilihan Salah !" << endl;
             }
+            break;
         }
     }
 }
