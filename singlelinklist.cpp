@@ -51,6 +51,8 @@ class SingleLinkList{
         }
 
         bool listEmpty(){
-            
+            return (START == NULL);
         }
+
+
 };
