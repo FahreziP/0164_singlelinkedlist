@@ -95,3 +95,9 @@ class SingleLinkList{
             }
         }
 };
+
+int main(){
+    SingleLinkList mhs;
+    int nim;
+    char ch;
+}
