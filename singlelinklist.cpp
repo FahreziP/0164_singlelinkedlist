@@ -8,11 +8,11 @@ class Node{
     Node *next;
 };
 
-class List{
+class SingleLinkList{
     Node *START;
 
     public:
-        List(){
+        SingleLinkList(){
             START = NULL;
         }
 
@@ -45,5 +45,12 @@ class List{
                 previous = current;
                 current = current->next;
             }
+
+            nodeBaru->next = current;
+            previous->next = nodeBaru;
+        }
+
+        bool listEmpty(){
+            
         }
 };
