@@ -7,3 +7,9 @@ class Node{
     int noMhs;
     Node *next;
 };
+
+class List{
+    Node *START;
+
+
+};
